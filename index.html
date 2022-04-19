@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<title>ai image processor</title>
+<head>
+    <style>
+        .center{
+            text-align: center;
+            border: 3px black;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    
+    <!--<canvas id="stylized" height="256"></canvas> -->
+
+    <div class="center">
+        <form action="uploads/upload.php" method="post" enctype="multipart/form-data" accept-charset=utf-8>
+            <h1>Arbitrary Neural Style Transfer Program</h1>
+            <br>
+            <p>Select an image you want to style:</p>
+            <br>
+            <input type="file" value="content image" name="content" id="content">
+            <br>
+            <p>Now select a reference image you'd like to style it after</p>
+            <br>
+            <input type="file" value="style image" name="style" id="style">
+            <br>
+            <br>
+            <input type="submit" value="Upload Image" name="submit">
+
+
+
+
+        </form>
+<h1>DISCLAIMER!</h1>
+<p>This site is made by a sleep deprived amateur.</p>
+<p>The last two images to be processed is stored on the server,</p>
+<p>and can be accessed with the right url.</p>
+<p>I am not responsible for any private photos ending up in the wrong places!</p>
+
+        
+    </div>
+</body>
